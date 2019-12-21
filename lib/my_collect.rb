@@ -9,6 +9,7 @@ def my_collect(array)
   new_arr
 end
 
-
+my_collect(array) do |capital|
+  new_arr <<
 
     

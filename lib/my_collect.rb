@@ -1,5 +1,5 @@
 
-def my_collection(array)
+def my_collect(array)
   i = 0 
   new_arr = []
   while i < array.length do
@@ -9,7 +9,7 @@ def my_collection(array)
   new_arr
 end
 
-my_collection(array[i]) do |name|
+my_collect(array[i]) do |name|
   new_arr << name.split(" ".first)
 end
 

@@ -10,6 +10,3 @@ def my_collect(array)
 end
 
 
-my_collect(array) do |changes|
-  puts "test #{array[i]}"
-end

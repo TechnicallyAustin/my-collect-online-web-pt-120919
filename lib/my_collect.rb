@@ -14,5 +14,6 @@ my_collect(array) { |changes|
 if array[i] == array[i].upcase do
   new_arr << array[i].downcase
   elsif array{i] == array[i].downcase do
-    new_arr << array[i].upcase}
+    new_arr << array[i].upcase
   end
+  }

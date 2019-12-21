@@ -9,6 +9,8 @@ def my_collection(array)
   new_arr
 end
 
-my_collection(array) {|name| new_arr << name.split(" ".first)}
+my_collection(array) do |name|
+  new_arr << name.split(" ".first)
+end
 
     

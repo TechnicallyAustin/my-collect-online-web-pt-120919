@@ -11,5 +11,8 @@ def my_collect(array)
 end
 
 
-if array[i]
+if array[i] == array[i].upper do
+  array[i].downcase
+elsif array[i] == array[i].lower do
+  elsif array[i] ==
     

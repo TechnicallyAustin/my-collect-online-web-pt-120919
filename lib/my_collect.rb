@@ -3,7 +3,7 @@ def my_collect(array)
   i = 0 
   new_arr = []
   while i < array.length do
-    yield(array)
+    yield array[i]
     i += 1
   end
   new_arr
@@ -11,9 +11,5 @@ end
 
 
 my_collect(array) do |changes|
-if array[i] == array[i].upcase do
-  new_arr << array[i].downcase
-  elsif array{i] == array[i].downcase do
-    new_arr << array[i].upcase
-  end
-  }
+  puts "test #{array[i]}"
+end

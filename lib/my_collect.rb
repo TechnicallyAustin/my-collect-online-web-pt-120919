@@ -9,7 +9,7 @@ def my_collection(array)
   new_arr
 end
 
-my_collection(array) do |name|
+my_collection(array[i]) do |name|
   new_arr << name.split(" ".first)
 end
 
